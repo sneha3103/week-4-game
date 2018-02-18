@@ -1,0 +1,15 @@
+body {
+    background-image: url("../images/dancebackground.jpg");
+}
+
+#Images {
+    position: relative;
+    top: 116px;
+    left: 244px;
+}
+
+h1 {
+    position: relative;
+    left: 238px;
+    width: 600px;
+}
