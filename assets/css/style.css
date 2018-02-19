@@ -1,11 +1,11 @@
 body {
-    background-image: url("../images/dancebackground.jpg");
+    background-image: url("../images/dancebackground2.jpg");
 }
 
 #Images {
     position: relative;
-    top: 116px;
-    left: 244px;
+    top: -12px;
+    left: 443px;
 }
 
 h1 {
@@ -13,3 +13,58 @@ h1 {
     left: 238px;
     width: 600px;
 }
+
+.ComputerBox {
+    height: 100px;
+    width: 168px;
+    background-color: #e0caca;
+    border: 3px solid #5e3071;
+    position: relative;
+    bottom: 160px;
+    left: 1013px;
+    color: #c712a6;
+    font-weight: bold;
+    text-align: center;
+}
+
+.TotalScore {
+    height: 100px;
+    width: 168px;
+    background-color: #e0caca;
+    border: 3px solid #5e3071;
+    position: relative;
+    bottom: 118px;
+    left: 1011px;
+    color: #c712a6;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Instructions {
+    height: 299px;
+    width: 240px;
+    background-color: #e0caca;
+    border: 3px solid #5e3071;
+    position: relative;
+    bottom: 377px;
+    left: 19px;
+    color: #c712a6;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.WinLossBox {
+    height: 100px;
+    width: 160px;
+    background-color: #e0caca;
+    border: 3px solid #5e3071;
+    position: relative;
+    bottom: 509px;
+    left: 542px;
+    color: #c712a6;
+    font-weight: bold;
+    text-align: center;
+
+}
+
