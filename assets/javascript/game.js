@@ -17,6 +17,7 @@ $(document).ready(function() {
     //When user clicks on the icon of a dance image, I created a variable called dancer Id to represent that when a certain image is clicked, it will grab the specific id of that dance style.
     $(".Danceimage").on("click",function() {
     var dancerId = $(this).attr("id");
+    //Created a variable of dancePoints to represent the corresponding dance points user gets.
     var dancePoints = 0;
       console.log(dancerId);
     //Created a switch case to allow dancer id to correspond to each specific dance style image and allow each icon to have a randomly generated number (which is already assigned from the global variables above)
