@@ -39,8 +39,20 @@ $(document).ready(function() {
 
     totalSteps += dancePoints;
     $(".TotalScore").html("Your total step count is: " + totalSteps);
-
     
+    if (totalSteps === computerPick) {
+        winCount++;
+        console.log(winCount);
+        $(".WinLossBox").html("Wins: " + winCount + "<br> <br> Loss: " + lossCount);
+
+    }
+
+    if (totalSteps > computerPick) {
+        lossCount++;
+        $(".WinLossBox").html("Wins: " + winCount + "<br> <br> Loss: " + lossCount);
+
+    }
+
 
     });
         

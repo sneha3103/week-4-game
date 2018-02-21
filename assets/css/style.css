@@ -5,7 +5,7 @@ body {
 #Images {
     position: relative;
     top: -12px;
-    left: 443px;
+    left: 489px;
 }
 
 h1 {
@@ -41,8 +41,8 @@ h1 {
 }
 
 .Instructions {
-    height: 299px;
-    width: 240px;
+    height: 339px;
+    width: 372px;
     background-color: #e0caca;
     border: 3px solid #5e3071;
     position: relative;
