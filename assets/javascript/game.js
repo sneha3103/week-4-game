@@ -1,4 +1,4 @@
-alert ("hi");
+// alert ("hi");
 $(document).ready(function() {
     //Assigning variables to use throughout the code
     var indianImage = Math.floor(Math.random() * 12) + 1
